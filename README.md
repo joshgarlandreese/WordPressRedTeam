@@ -53,8 +53,8 @@ Exploit Used:
 ! [TODO: Include the command run.]
 - flag2.txt: fc3fd58dcdad9ab23faca6e9a36e581c
 Exploit Used
-![TODO:] dirbuster - exposed directory path (flag was discovered at 192.168.1.115/vendor/PATH)
-![TODO:] dirbuster -l /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -e -u http://192.168.1.110
+![TODO:] gobuster - exposed directory path (flag was discovered at 192.168.1.110/vendor/PATH)
+![TODO:Update with output and command] gobuster -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt dir -e -u http://192.168.1.110
 - flag3.txt: afc01ab56b50591e7dccf93122770cd2
 Exploit Used
 ![TODO:] exposed root password and then uncovered hashes via mysql
@@ -67,8 +67,8 @@ Exploit Used
 Target 2
 - flag1.txt: a2c1f66d2b8051bd3a5874b5b6e43e21
 Exploit Used 
-![TODO:] dirbuster - exposed directory path (flag was discovered at 192.168.1.115/vendor/PATH)
-![TODO:] dirbuster -l /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -e -u http://192.168.1.115
+![TODO:] gobuster - exposed directory path (flag was discovered at 192.168.1.115/vendor/PATH)
+![TODO:] gobuster -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt dir -e -u http://192.168.1.115
 - flag2.txt: 
 Exploit Used
 ![TODO:] Identify the exploit used.
