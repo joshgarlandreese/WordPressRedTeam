@@ -34,7 +34,7 @@ Target 2:
 The following vulnerabilities were identified on each target:
 
 Target 1
-- CVE-2019-12215 Full Path Disclosure (192.268.1.110/service.html)
+- CVE-2019-12215 Full Path Disclosure (192.268.1.110/var/www/html/vendor)
 - CVE-2019-15653 html password disclosure - The password hash is viewable in plaintext (192.168.1.110/service.html)
 - Wpscan exposed username which allowed brute force of password information.  User access to the wp-config.php file via nano.  This exposed the root user and password.
 
