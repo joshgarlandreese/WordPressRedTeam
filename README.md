@@ -16,6 +16,7 @@ Target 1
 - Port 22 / SSH
 - Port 80 / http
 - Port 111 / rpcbind
+
 ![TODO: Update the path with the name of your diagram](https://github.com/joshgarlandreese/WordPressRedTeam_BlueTeam/blob/master/NMAP%20final%20Project.png)
 
 
