@@ -51,7 +51,8 @@ Target 1
   - Exploit (dirbuster)
    - dirbuster was used to uncover the file path that led to the flag exposure.
    - dirbuster command 
-   -![TODO: Update the path with the name of your diagram](html) 
+   -![TODO: Update the path with the name of your diagram](https://github.com/joshgarlandreese/WordPressRedTeam_BlueTeam/blob/master/dirbuster%20path%20to%20flag2.png) 
+   -![TODO: Update the path with the name of your diagram](html)
 - flag2.txt: fc3fd58dcdad9ab23faca6e9a36e581c
   - Exploit Used (gobuster)
    - gobuster - exposed directory path (flag was discovered at 192.168.1.110/vendor/PATH)
