@@ -8,3 +8,5 @@ Table of Contents
 - Exploitation
 
 # Exposed Services
+$ nmap ... # TODO: nmap -sC -sV 192.168.1.110
+  # TODO: Insert scan output
