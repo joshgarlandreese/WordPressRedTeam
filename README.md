@@ -18,7 +18,7 @@ Target 1:
 - Port 80 / http
 - Port 111 / rpcbind
 
-![TODO: Update the path with the name of your diagram](https://github.com/joshgarlandreese/WordPressRedTeam_BlueTeam/blob/master/NMAP%20final%20Project.png)
+![TODO: Update the path with the name of your diagram](https://github.com/joshgarlandreese/WordPressRedTeam_BlueTeam/blob/master/nmap%20vm1.png)
 
 nmap $ nmap -sC -sV 192.168.1.115
 
