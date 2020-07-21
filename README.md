@@ -52,9 +52,10 @@ Exploit Used:
 ! [TODO: Identify the exploit used.]
 ! [TODO: Include the command run.]
 - flag2.txt: fc3fd58dcdad9ab23faca6e9a36e581c
-Exploit Used
-![TODO:] gobuster - exposed directory path (flag was discovered at 192.168.1.110/vendor/PATH)
-![TODO:Update with output and command](https://github.com/joshgarlandreese/WordPressRedTeam_BlueTeam/blob/master/gobuster%20vm1.png)gobuster -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt dir -e -u http://192.168.1.110
+  -Exploit Used
+   - ![TODO:] gobuster - exposed directory path (flag was discovered at 192.168.1.110/vendor/PATH)
+   - ![TODO:Update with output and command](https://github.com/joshgarlandreese/WordPressRedTeam_BlueTeam/blob/master/gobuster%20vm1.png)
+   - gobuster -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt dir -e -u http://192.168.1.110
 - flag3.txt: afc01ab56b50591e7dccf93122770cd2
 Exploit Used
 ![TODO:] exposed root password and then uncovered hashes via mysql
