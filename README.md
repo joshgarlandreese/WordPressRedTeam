@@ -22,7 +22,7 @@ Target 1:
 
 nmap $ nmap -sC -sV 192.168.1.115
 
-Target 2 has the same ports open:
+Target 2:
 - Port 22 / SSH
 - Port 80 / http
 - Port 111 / rpcbind
