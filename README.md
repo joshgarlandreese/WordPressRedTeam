@@ -8,9 +8,10 @@ Table of Contents
 - Exploitation
 
 # Exposed Services
-nmap $ nmap -sC -sV 192.168.1.110
 
-This scan identifies the services below as potential points of entry:
+The nmap scan outlined below identifies the potential points of entry:
+
+nmap $ nmap -sC -sV 192.168.1.110
 
 Target 1
 - Port 22 / SSH
