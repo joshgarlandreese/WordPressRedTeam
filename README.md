@@ -49,8 +49,8 @@ The Red Team was able to penetrate both Target 1 and Target 2 and retrieve the f
 Target 1
 - flag1.txt: 9bbcb33e11b80be759c4e844862482
 Exploit Used: 
-![TODO: Identify the exploit used.]
-![TODO: Include the command run.]
+! [TODO: Identify the exploit used.]
+! [TODO: Include the command run.]
 - flag2.txt: fc3fd58dcdad9ab23faca6e9a36e581c
 Exploit Used
 ![TODO:] dirbuster - exposed directory path (flag was discovered at 192.168.1.115/vendor/PATH)
