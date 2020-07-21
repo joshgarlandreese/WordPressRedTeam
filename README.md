@@ -28,3 +28,17 @@ Target 2:
 - Port 111 / rpcbind
 
 ![TODO: Update the path with the name of your diagram](https://github.com/joshgarlandreese/WordPressRedTeam_BlueTeam/blob/master/NMAP%20final%20Project.png)
+
+# Critical Vulnerabilities
+
+The following vulnerabilities were identified on each target:
+
+Target 1
+- CVE-2019-12215 Full Path Disclosure (192.268.1.110/service.html)
+- CVE-2019-15653 html password disclosure - The password hash is viewable in plaintext (192.168.1.110/service.html)
+- Wpscan exposed username which allowed brute force of password information.  User access to the wp-config.php file via nano.  This exposed the root user and password.
+
+Target 2
+- CVE-2019-12215 Full Path Disclosure (192.168.1.115/vendor/PATH)
+- CVE-2015-8476 Php mailer (192.168.1.115/vendor/PHPMailerAutoload.php)
+
