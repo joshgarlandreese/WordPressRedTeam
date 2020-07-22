@@ -104,7 +104,7 @@ I then entered the following commands:
    - This allowed me to gain root access.
    - Once logged in I used the command cd ~/root -> ls -> cat flag4.txt
 
-![TODO:](html)
+![TODO:](https://github.com/joshgarlandreese/WordPressRedTeam_BlueTeam/blob/master/flag%204%20from%20root.png)
 
 Target 2
 - flag1.txt: a2c1f66d2b8051bd3a5874b5b6e43e21
