@@ -74,12 +74,12 @@ Before we began, we ran an enumeration scan to uncover the users and hidden dire
      ![TODO: Update the path with the name of your diagram](https://github.com/joshgarlandreese/WordPressRedTeam_BlueTeam/blob/master/dirbuster%20path%20to%20flag2.png)    
      
 - flag3.txt: afc01ab56b50591e7dccf93122770cd2
-  - Exploit Used
-  
-  I was able to expose the username and password for the MySQL database once I discovered I had access to the wp-config.php file while logged in as michael.
+  - I was able to expose the username and password for the MySQL database once I discovered I had access to the wp-config.php file while logged in as michael.
   
     ![TODO: Update the path with the name of your diagram](https://github.com/joshgarlandreese/WordPressRedTeam_BlueTeam/blob/master/nano%20wp-config.png) 
+    
     ![TODO:](html) mysql -u root -p wordpress -> show databases; -> select * from wp_posts;
+    
 - flag4.txt: 715dea6c055b9fe3337544932f2941ce
   - Exploit Used
    - john hash.txt to translate steven’s hash into password “pink84” -> logged in with steven’s credentials and then ran bin/bash command  to gain root
