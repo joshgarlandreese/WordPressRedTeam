@@ -1,4 +1,4 @@
-# WordPressRedTeam
+# Red Team: Summary of Operations
 
 The network depicted below was used to test exploits and determine vulnerabilities within the WordPress servers.
 ![TODO: Update the path with the name of your diagram](https://github.com/joshgarlandreese/WordPressRedTeam_BlueTeam/blob/master/Final%20Proj%20Topology%20(Updated).png)
@@ -133,6 +133,110 @@ Target 2 was much more challenging.  I was able to uncover the usernames as mich
 ![TODO:](https://github.com/joshgarlandreese/WordPressRedTeam_BlueTeam/blob/master/VM2%20Flag%203.png)
 
 - flag4.txt: UNABLE TO LOCATE
+
+# Blue Team: Summary of Operations
+
+Below we will outline the following:
+- Description of Targets
+- Monitoring the Targets
+- Patterns of Traffic and Behavior
+- Suggestions for Going Further
+
+Network Topology
+TODO: Fill out the information below.
+
+The following machines were identified on the network:
+
+[Name of VM 1]
+Operating System:
+Purpose:
+IP Address:
+
+[Name of VM 2]
+Operating System:
+Purpose:
+IP Address:
+Etc.
+
+Including a Gliffy or draw.io diagram is optional but highly encouraged.
+
+Description of Targets
+Fill in the following: 
+
+Two VMs on the network were vulnerable to attack: Target 1 192.168.1.110 and Target 2 192.168.1.115
+
+Each VM functions as an Apache web server and has SSH enabled, so ports 80 and 22 are possible ports of entry for attackers.
+
+
+Monitoring the Targets
+This scan identifies the services below as potential points of entry:
+
+Target 1
+List of
+Potentially vulnerable
+Services
+
+Target 2
+List of
+Potentially vulnerable
+Services
+
+Traffic to these services should be carefully monitored. To this end, we have implemented the alerts below: (Note: Add at least three alerts. You can add more if time allows.)
+
+Name of Alert 1
+
+[Name of Alert 1] is implemented as follows:
+
+Metric: TODO
+Threshold: TODO
+Vulnerability Mitigated: TODO
+Reliability: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+
+[INSERT: An image of the alert being fired.]
+
+Name of Alert 2
+
+[Name of Alert 2] is implemented as follows:
+
+Metric: TODO
+Threshold: TODO
+Vulnerability Mitigated: TODO
+Reliability: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+
+[INSERT: An image of the alert being fired.]
+
+
+
+Name of Alert 3
+
+[Name of Alert 3] is implemented as follows:
+
+Metric: TODO
+Threshold: TODO
+Vulnerability Mitigated: TODO
+Reliability: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+
+[INSERT: An image of the alert being fired.]
+
+Note: If time allows, add more alerts. 
+
+Suggestions for Going Further
+
+Suggest a patch for each vulnerability identified by the alerts above. Remember: alerts only detect malicious behavior. They do not prevent it. It is not necessary to explain how to implement each patch.
+
+The logs and alerts generated during the assessment suggest that this network is susceptible to several active threats. In addition to watching for occurrences of such threats, the network should be hardened against them. The Blue Team suggests that IT implement the fixes below to protect the network:
+
+Vulnerability 1
+Patch: [For example: install special-security-package with apt-get]
+Why It Works:  [For example: special-security-package scans the system for viruses every day]
+
+Vulnerability 2
+Patch:
+Why It Works:
+
+Vulnerability 3
+Patch: 
+Why It Works: 
 
 Overall this was a great CTF challenge.  As a noob, I enjoyed hunting through and trying various exploits and search options to hunt down the flags and review the incident response side as well. I will continue various challenges to continue to improve my skills.
 
