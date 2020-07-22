@@ -127,7 +127,7 @@ Target 2
    
 ![TODO:](https://github.com/joshgarlandreese/WordPressRedTeam_BlueTeam/blob/master/VM2%20Flag%203%20Location.png)   
 
-![TODO:](html)
+![TODO:](https://github.com/joshgarlandreese/WordPressRedTeam_BlueTeam/blob/master/VM2%20Flag%203.png)
 
 - flag4.txt: UNABLE TO LOCATE
 
