@@ -51,14 +51,18 @@ Target 1
   - Exploit (dirbuster)
    - dirbuster was used to uncover the file path that led to the flag exposure.
    - dirbuster command: dirbuster -l /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -e -u http://192.168.1.110
+   
      ![TODO: Update the path with the name of your diagram](https://github.com/joshgarlandreese/WordPressRedTeam_BlueTeam/blob/master/flag%201%20vm1.png)
      
 - flag2.txt: fc3fd58dcdad9ab23faca6e9a36e581c
   - Exploit Used (gobuster)
    - gobuster - exposed directory path (flag was discovered at 192.168.1.110/vendor/PATH)
-   - gobuster -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt dir -e -u http://192.168.1.110        
+   - gobuster -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt dir -e -u http://192.168.1.110 
+   
      ![TODO: Update the path with the name of your diagram](https://github.com/joshgarlandreese/WordPressRedTeam_BlueTeam/blob/master/gobuster%20vm1.png)
+     
      ![TODO: Update the path with the name of your diagram](https://github.com/joshgarlandreese/WordPressRedTeam_BlueTeam/blob/master/VM2%20Index_Vendor.png)
+     
      ![TODO: Update the path with the name of your diagram](https://github.com/joshgarlandreese/WordPressRedTeam_BlueTeam/blob/master/dirbuster%20path%20to%20flag2.png)    
      
 - flag3.txt: afc01ab56b50591e7dccf93122770cd2
