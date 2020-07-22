@@ -80,8 +80,10 @@ Before we began, we ran an enumeration scan to uncover the users and hidden dire
     
     ![TODO:](https://github.com/joshgarlandreese/WordPressRedTeam_BlueTeam/blob/master/Find%20IP%20for%20mysql.png) 
     
-- mysql -u root -p wordpress -> show databases; -> select * from wp_posts;
-    
+- command: mysql -u root -p wordpress .  Once I entered this command it prompted me to enter my password.  Usuing the root password above I was able to login to the mysql database.  From there I ran the following commands -> show databases; -> use wordpress -> show tables; -> select * from wp_posts
+
+![TODO: Update the path with the name of your diagram](html)
+
 - flag4.txt: 715dea6c055b9fe3337544932f2941ce
   - Exploit Used
    - john hash.txt to translate steven’s hash into password “pink84” -> logged in with steven’s credentials and then ran bin/bash command  to gain root
