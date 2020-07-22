@@ -111,9 +111,13 @@ Target 2
  - gobuster - exposed directory path (flag was discovered at 192.168.1.115/vendor/PATH)
  - Command used: 
    - gobuster -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt dir -e -u http://192.168.1.115
-   ![TODO:](html) 
-   ![TODO:](html) 
    
+![TODO:](https://github.com/joshgarlandreese/WordPressRedTeam_BlueTeam/blob/master/gobuster%20vm2.png) 
+   
+![TODO:](html) 
+
+![TODO:](html)    
+
 - flag2.txt: 
  - Exploit Used
    ![TODO:](html) Identify the exploit used.
