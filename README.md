@@ -147,18 +147,13 @@ Network Topology
 
 The following machines were identified on the network:
 
-[Name of VM 1]
-Operating System:
-Purpose:
-IP Address:
+Raven 1:
+- Purpose: Apache Web Server
+- IP Address: 192.168.1.115
 
-[Name of VM 2]
-Operating System:
-Purpose:
-IP Address:
-Etc.
-
-Including a Gliffy or draw.io diagram is optional but highly encouraged.
+Raven 2:
+- Purpose: Apache Web Server
+- IP Address: 192.168.1.115
 
 Description of Targets
 Fill in the following: 
