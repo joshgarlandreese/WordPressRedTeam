@@ -96,7 +96,7 @@ Before we began, we ran an enumeration scan to uncover the users and hidden dire
   
    -  2 usernames were displayed for michael and steven.  Based on me already having the password for michael I wanted to obtain the password for steven.  I exited back to my root login to run john the ripper.  I added the hash to a txt file I named "hash.txt".  I then ran john hash.txt to translate steven’s hash into password “pink84” 
 
-![TODO: Update the path with the name of your diagram](html)
+![TODO: Update the path with the name of your diagram](https://github.com/joshgarlandreese/WordPressRedTeam_BlueTeam/blob/master/steven%20password%20pink84.png)
 
 -> logged in with steven’s credentials and then ran bin/bash command  to gain root
    - ssh steven@192.168.1.110 -> sudo /usr/bin/python -> import os -> os.system(‘ /bin/bash’) -> ls -> cat flag4.txt
