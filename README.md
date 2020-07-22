@@ -47,6 +47,10 @@ Target 2
 The Red Team was able to penetrate both Target 1 and Target 2 and retrieve the following confidential data:
 
 Target 1
+
+Before we began, we ran an enumeration scan to uncover the users and hidden directories within the Target.  wpscan --url http://192.168.1.110/wordpress --wp-content-dir -at -eu was used to uncover user names steven and michael.  
+   ![TODO: Update the path with the name of your diagram](html)
+   
 - flag1.txt: 9bbcb33e11b80be759c4e844862482
    - dirbuster was used to uncover the file path that led to the flag exposure.  http://192.168.1.110/service.html.  Utilizing inspector it was uncovered the flag was exposed in plain text.
    - dirbuster command: dirbuster -l /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -e -u http://192.168.1.110
