@@ -78,7 +78,7 @@ Before we began, we ran an enumeration scan to uncover the users and hidden dire
   
     ![TODO: Update the path with the name of your diagram](https://github.com/joshgarlandreese/WordPressRedTeam_BlueTeam/blob/master/nano%20wp-config.png) 
     
-    ![TODO:](html) mysql -u root -p wordpress -> show databases; -> select * from wp_posts;
+    ![TODO:](https://github.com/joshgarlandreese/WordPressRedTeam_BlueTeam/blob/master/Find%20IP%20for%20mysql.png) mysql -u root -p wordpress -> show databases; -> select * from wp_posts;
     
 - flag4.txt: 715dea6c055b9fe3337544932f2941ce
   - Exploit Used
