@@ -107,6 +107,9 @@ I then entered the following commands:
 ![TODO:](https://github.com/joshgarlandreese/WordPressRedTeam_BlueTeam/blob/master/flag%204%20from%20root.png)
 
 Target 2
+
+Target 2 was much more challenging.  I was able to uncover the usernames as michael and steven.  However, the same hydra command didn't work to obtain the password for port 22 (ssh).  I was able to obtain a password through http-get, however that didn't work with the ssh command option.  I tried to also obtain the password through some exploits, but didn't have any luck.  I need to continue to study python so I can determine where I may be missing options to help in this area.  Here is what I was able to uncover through some process of elimination.  I did uncover 2 of the 4 flags on this Target.
+
 - flag1.txt: a2c1f66d2b8051bd3a5874b5b6e43e21
  - gobuster - exposed directory path (flag was discovered at 192.168.1.115/vendor/PATH)
  - Command used: 
