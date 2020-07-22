@@ -48,7 +48,9 @@ The Red Team was able to penetrate both Target 1 and Target 2 and retrieve the f
 
 Target 1
 
-Before we began, we ran an enumeration scan to uncover the users and hidden directories within the Target.  wpscan --url http://192.168.1.110/wordpress --wp-content-dir -at -eu was used to uncover user names steven and michael.  
+Before we began, we ran an enumeration scan to uncover the users and hidden directories within the Target.  
+- Command used: wpscan --url http://192.168.1.110/wordpress --wp-content-dir -at -eu 
+- This command uncovered user names steven and michael.  
    ![TODO: Update the path with the name of your diagram](html)
    
 - flag1.txt: 9bbcb33e11b80be759c4e844862482
