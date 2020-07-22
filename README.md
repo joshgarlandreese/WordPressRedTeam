@@ -116,7 +116,7 @@ Target 2
    
 ![TODO:](https://github.com/joshgarlandreese/WordPressRedTeam_BlueTeam/blob/master/VM2%20Index_Vendor.png) 
 
-![TODO:](html)    
+![TODO:](https://github.com/joshgarlandreese/WordPressRedTeam_BlueTeam/blob/master/Flag1%20VM%202.png)    
 
 - flag2.txt: 
  - Exploit Used
