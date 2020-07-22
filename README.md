@@ -108,17 +108,22 @@ I then entered the following commands:
 
 Target 2
 - flag1.txt: a2c1f66d2b8051bd3a5874b5b6e43e21
- - Exploit Used 
-   ![TODO:](html) gobuster - exposed directory path (flag was discovered at 192.168.1.115/vendor/PATH)
-   ![TODO:](html) gobuster -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt dir -e -u http://192.168.1.115
+ - gobuster - exposed directory path (flag was discovered at 192.168.1.115/vendor/PATH)
+ - Command used: 
+   - gobuster -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt dir -e -u http://192.168.1.115
+   ![TODO:](html) 
+   ![TODO:](html) 
+   
 - flag2.txt: 
  - Exploit Used
    ![TODO:](html) Identify the exploit used.
    ![TODO:](html) Include the command run.
+   
 - flag3.txt:  a0f568aa9de277887f377887f37730d71520d9b
  - Exploit Used
    ![TODO:](html) dirbuster - exposed directory path (flag was discovered at 192.168.1.115/wordpress/wp-content/uploads/2018/11/)
    ![TODO:](html) dirbuster -l /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -e -u http://192.168.1.115
+   
 - flag4.txt: 
  - Exploit Used
    ![TODO:](html) Identify the exploit used.
