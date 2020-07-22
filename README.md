@@ -55,7 +55,7 @@ Before we began, we ran an enumeration scan to uncover the users and hidden dire
 
 - Once I obtained the usernames I was able to run a hydra command to obtain the password.  As noted above, port 22 is open so I wanted to obtain the password that could be used to SSH into the machine.
 - Command used: hydra -l michael -P /usr/share/john/password.lst -vV 22:192.168.1.110
-- This command exposed "michael" as the password for the username "michael".  utilizing ssh michael@192.168.1.110 with password "michael" I was able to gain access to Target 1.  
+- This command exposed "michael" as the password for the username "michael".  Utilizing ssh michael@192.168.1.110 with password "michael" I was able to gain access to Target 1.  
    
 - flag1.txt: 9bbcb33e11b80be759c4e844862482
    - dirbuster was used to uncover the file path that led to the flag exposure.  http://192.168.1.110/service.html.  Utilizing inspector it was uncovered the flag was exposed in plain text.
