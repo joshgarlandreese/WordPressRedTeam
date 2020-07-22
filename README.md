@@ -118,18 +118,14 @@ Target 2
 
 ![TODO:](https://github.com/joshgarlandreese/WordPressRedTeam_BlueTeam/blob/master/Flag1%20VM%202.png)    
 
-- flag2.txt: 
- - Exploit Used
-   ![TODO:](html) Identify the exploit used.
-   ![TODO:](html) Include the command run.
+- flag2.txt: UNABLE TO LOCATE
    
 - flag3.txt:  a0f568aa9de277887f377887f37730d71520d9b
  - Exploit Used
    ![TODO:](html) dirbuster - exposed directory path (flag was discovered at 192.168.1.115/wordpress/wp-content/uploads/2018/11/)
    ![TODO:](html) dirbuster -l /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -e -u http://192.168.1.115
    
-- flag4.txt: 
- - Exploit Used
-   ![TODO:](html) Identify the exploit used.
-   ![TODO:](html) Include the command run.
+- flag4.txt: UNABLE TO LOCATE
+
+Overall this was a great CTF challenge.  As a noob, I enjoyed hunting through and trying various exploits and search options to hunt down the flags and review the incident response side as well. I will continue various challenges to continue to improve my skills.
 
