@@ -1,4 +1,4 @@
-# WordPressRedTeam_BlueTeam
+# WordPressRedTeam
 
 The network depicted below was used to test exploits and determine vulnerabilities within the WordPress servers.
 ![TODO: Update the path with the name of your diagram](https://github.com/joshgarlandreese/WordPressRedTeam_BlueTeam/blob/master/Final%20Proj%20Topology%20(Updated).png)
