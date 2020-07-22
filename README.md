@@ -48,7 +48,7 @@ The Red Team was able to penetrate both Target 1 and Target 2 and retrieve the f
 
 Target 1
 - flag1.txt: 9bbcb33e11b80be759c4e844862482
-   - dirbuster was used to uncover the file path that led to the flag exposure.
+   - dirbuster was used to uncover the file path that led to the flag exposure.  http://192.168.1.110/service.html.  Utilizing inspector it was uncovered the flag was exposed in plain text.
    - dirbuster command: dirbuster -l /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -e -u http://192.168.1.110
    
      ![TODO: Update the path with the name of your diagram](https://github.com/joshgarlandreese/WordPressRedTeam_BlueTeam/blob/master/flag%201%20vm1.png)
