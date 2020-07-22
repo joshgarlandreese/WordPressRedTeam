@@ -155,26 +155,26 @@ Raven 2:
 - Purpose: Apache Web Server
 - IP Address: 192.168.1.115
 
-Description of Targets
-Fill in the following: 
+- Description of Targets
+  -Fill in the following: 
 
-Two VMs on the network were vulnerable to attack: Target 1 192.168.1.110 and Target 2 192.168.1.115
+    -Two VMs on the network were vulnerable to attack: Target 1 192.168.1.110 and Target 2 192.168.1.115
 
-Each VM functions as an Apache web server and has SSH enabled, so ports 80 and 22 are possible ports of entry for attackers.
+    -Each VM functions as an Apache web server and has SSH enabled, so ports 80 and 22 are possible ports of entry for attackers.
 
 
 Monitoring the Targets
-This scan identifies the services below as potential points of entry:
+- This scan identifies the services below as potential points of entry:
 
-Target 1
-List of
-Potentially vulnerable
-Services
+  - Target 1
+   -List of
+   -Potentially vulnerable
+   -Services
 
-Target 2
-List of
-Potentially vulnerable
-Services
+  - Target 2
+   -List of
+   -Potentially vulnerable
+   -Services
 
 Traffic to these services should be carefully monitored. To this end, we have implemented the alerts below: (Note: Add at least three alerts. You can add more if time allows.)
 
