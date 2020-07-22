@@ -80,7 +80,10 @@ Before we began, we ran an enumeration scan to uncover the users and hidden dire
     
     ![TODO:](https://github.com/joshgarlandreese/WordPressRedTeam_BlueTeam/blob/master/Find%20IP%20for%20mysql.png) 
     
-- command: mysql -u root -p wordpress .  Once I entered this command it prompted me to enter my password.  Usuing the root password above I was able to login to the mysql database.  From there I ran the following commands -> show databases; -> use wordpress -> show tables; -> select * from wp_posts
+- command: mysql -u root -p wordpress   
+- Once I entered this command it prompted me to enter my password.  Using the root password above I was able to login to the mysql database.  
+- From there I ran the following commands:
+  - -> show databases; -> use wordpress -> show tables; -> select * from wp_posts
 
 ![TODO: Update the path with the name of your diagram](html)
 
