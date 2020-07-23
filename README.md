@@ -36,7 +36,8 @@ The following vulnerabilities were identified on each target:
 Target 1
 - CVE-2019-12215 Full Path Disclosure (192.268.1.110/var/www/html/vendor)
 - CVE-2019-15653 html password disclosure - The password hash is viewable in plaintext (192.168.1.110/service.html)
-- Wpscan exposed username which allowed brute force of password information.  User access to the wp-config.php file via nano.  This exposed the root user and password.
+- CVE-2017-7760 exposed username which allowed brute force of password information.  User access to the wp-config.php file via nano.  This exposed the root user and password.
+- CVE-2008-5161 ssh remote login was active at the user level with port 22 being open
 
 Target 2
 - CVE-2019-12215 Full Path Disclosure (192.168.1.115/vendor/PATH)
@@ -202,13 +203,12 @@ Vulnerability 1: ssh login
 - Patch: Disable ssh.  This can be done by logging in as the root user on the server(s) and accessing the /etc/ssh/sshd_config file.  Add the following: AllowGroups wheel root.    
 - Why It Works: This will disable non root users from being able to ssh in.
 
-Vulnerability 2
-Patch: 
-Why It Works:
+Vulnerability 2: Proprietary information including hashed passwords is viewable in plaintext on html pages within the wordpress site.
+Patch: Notify developers of the error and have it corrected.
 
-Vulnerability 3
-Patch: 
-Why It Works: 
+Vulnerability 3: Users can access files they shouldn't be able to.  User Steven has ability to run python scripting through his login.  
+Patch: chmod 700 to these files.
+Why It Works: This will restrict access to root only read/write access.
 
 Overall this was a great CTF challenge.  As a noob, I enjoyed hunting through and trying various exploits and searching options to hunt down the flags and review the incident response side as well. I will continue various challenges to continue to improve my skills.
 
