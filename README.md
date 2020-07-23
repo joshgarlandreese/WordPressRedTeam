@@ -155,39 +155,23 @@ Raven 2:
 - Purpose: Apache Web Server
 - IP Address: 192.168.1.115
 
-- Description of Targets
-  -Fill in the following: 
-
-    -Two VMs on the network were vulnerable to attack: Target 1 192.168.1.110 and Target 2 192.168.1.115
-
-    -Each VM functions as an Apache web server and has SSH enabled, so ports 80 and 22 are possible ports of entry for attackers.
-
+- Note: Each VM has SSH enabled, so ports 80 and 22 are possible ports of entry for attackers.
 
 Monitoring the Targets
 - This scan identifies the services below as potential points of entry:
 
-  - Target 1
-   -List of
-   -Potentially vulnerable
-   -Services
+  - Traffic to these services should be carefully monitored. To this end, we have implemented the alerts below: (Note: Add at least three alerts. You can add more if time allows.)
 
-  - Target 2
-   -List of
-   -Potentially vulnerable
-   -Services
+SSH login attempts (Filebeat System)
 
-Traffic to these services should be carefully monitored. To this end, we have implemented the alerts below: (Note: Add at least three alerts. You can add more if time allows.)
-
-Name of Alert 1
-
-[Name of Alert 1] is implemented as follows:
+![TODO: Update the path with the name of your diagram](html)
 
 Metric: TODO
 Threshold: TODO
 Vulnerability Mitigated: TODO
 Reliability: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
 
-[INSERT: An image of the alert being fired.]
+![TODO: Update the path with the name of your diagram](html)
 
 Name of Alert 2
 
@@ -198,7 +182,7 @@ Threshold: TODO
 Vulnerability Mitigated: TODO
 Reliability: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
 
-[INSERT: An image of the alert being fired.]
+![TODO: Update the path with the name of your diagram](html)
 
 
 
@@ -211,10 +195,40 @@ Threshold: TODO
 Vulnerability Mitigated: TODO
 Reliability: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
 
-[INSERT: An image of the alert being fired.]
+![TODO: Update the path with the name of your diagram](html)
 
-Note: If time allows, add more alerts. 
+Name of Alert 4
 
+[Name of Alert 3] is implemented as follows:
+
+Metric: TODO
+Threshold: TODO
+Vulnerability Mitigated: TODO
+Reliability: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+
+![TODO: Update the path with the name of your diagram](html)
+
+Name of Alert 5
+
+[Name of Alert 3] is implemented as follows:
+
+Metric: TODO
+Threshold: TODO
+Vulnerability Mitigated: TODO
+Reliability: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+
+![TODO: Update the path with the name of your diagram](html)Note: If time allows, add more alerts. 
+
+Name of Alert 6
+
+[Name of Alert 3] is implemented as follows:
+
+Metric: TODO
+Threshold: TODO
+Vulnerability Mitigated: TODO
+Reliability: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+
+![TODO: Update the path with the name of your diagram](html)Note: If time allows, add more alerts. 
 Suggestions for Going Further
 
 Suggest a patch for each vulnerability identified by the alerts above. Remember: alerts only detect malicious behavior. They do not prevent it. It is not necessary to explain how to implement each patch.
