@@ -232,7 +232,9 @@ Threshold: TODO
 Vulnerability Mitigated: TODO
 Reliability: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
 
-![TODO: Update the path with the name of your diagram](html)Note: If time allows, add more alerts. 
+![TODO: Update the path with the name of your diagram](https://github.com/joshgarlandreese/WordPressRedTeam/blob/master/Sudo%20commands%20by%20Error.png)
+
+Note: If time allows, add more alerts. 
 Suggestions for Going Further
 
 Suggest a patch for each vulnerability identified by the alerts above. Remember: alerts only detect malicious behavior. They do not prevent it. It is not necessary to explain how to implement each patch.
