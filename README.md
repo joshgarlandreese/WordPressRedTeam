@@ -157,10 +157,12 @@ Raven 2:
 
    - Note: Each VM has SSH enabled, so ports 80 and 22 are possible ports of entry for attackers.
 
-Monitoring the Targets
+# Monitoring the Targets
 - This scan identifies the services below as potential points of entry:
 
   - Traffic to these services should be carefully monitored. To this end, we have implemented the alerts below: 
+
+SSH Logins through port 22 is dangerous to leave exposed as it would allow anyone to login remotely who could obtain the password for the particular user.  Based on brute force vulnerability with these servers the user from 192.168.1.90 was able to gain access through ssh login for both michael and steven.  This ultimately allowed them to gain root access to the system which allowed them free reign.
 
 SSH login attempts (Filebeat System)
 
@@ -170,24 +172,29 @@ SSH login list (Filebeat System)
 
 ![TODO: Update the path with the name of your diagram](https://github.com/joshgarlandreese/WordPressRedTeam/blob/master/SSH%20Login%20List.png)
 
-SSH Login Attempts
+SSH Login Attempts (Filebeat System)
 
 ![TODO: Update the path with the name of your diagram](https://github.com/joshgarlandreese/WordPressRedTeam/blob/master/SSH%20Successful%20Login%20Attempts.png)
 
-SSH Failed Login Attempts
+SSH Failed Login Attempts (Filebeat System)
+
 ![TODO: Update the path with the name of your diagram](https://github.com/joshgarlandreese/WordPressRedTeam/blob/master/SSH%20Users%20of%20Failed%20Login%20Attempts.png)
 
-Sudo Commands
+Sudo access allows the user to become a super user.  Several files were accessed including files that should not have had their permissions left open.  It's also converning that python could be run at the user level on the server.
+
+Sudo Commands (Filebeat System)
 
 ![TODO: Update the path with the name of your diagram](https://github.com/joshgarlandreese/WordPressRedTeam/blob/master/Sudo%20Commands.png)
 
-Sudo Errors
+Sudo Errors (Filebeat System)
 
 ![TODO: Update the path with the name of your diagram](https://github.com/joshgarlandreese/WordPressRedTeam/blob/master/Sudo%20Errors.png)
 
-Sudo Command Errors
+Sudo Command Errors (Filebeat System)
 
 ![TODO: Update the path with the name of your diagram](https://github.com/joshgarlandreese/WordPressRedTeam/blob/master/Sudo%20commands%20by%20Error.png)
+
+In addition to the Filebeat logs, alerts were also setup to e-mail a distribution list once established metrics were exceeded.  This would copy in Management so if a SOC analyst missed the alerts the Manager could alert the team in real time.
 
 The logs and alerts generated during the assessment suggest that this network is susceptible to several active threats. In addition to watching for occurrences of such threats, the network should be hardened against them. The Blue Team suggests that IT implement the fixes below to protect the network:
 
@@ -203,5 +210,5 @@ Vulnerability 3
 Patch: 
 Why It Works: 
 
-Overall this was a great CTF challenge.  As a noob, I enjoyed hunting through and trying various exploits and search options to hunt down the flags and review the incident response side as well. I will continue various challenges to continue to improve my skills.
+Overall this was a great CTF challenge.  As a noob, I enjoyed hunting through and trying various exploits and searching options to hunt down the flags and review the incident response side as well. I will continue various challenges to continue to improve my skills.
 
