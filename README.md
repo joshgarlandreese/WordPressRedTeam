@@ -155,89 +155,39 @@ Raven 2:
 - Purpose: Apache Web Server
 - IP Address: 192.168.1.115
 
-- Note: Each VM has SSH enabled, so ports 80 and 22 are possible ports of entry for attackers.
+   - Note: Each VM has SSH enabled, so ports 80 and 22 are possible ports of entry for attackers.
 
 Monitoring the Targets
 - This scan identifies the services below as potential points of entry:
 
-  - Traffic to these services should be carefully monitored. To this end, we have implemented the alerts below: (Note: Add at least three alerts. You can add more if time allows.)
+  - Traffic to these services should be carefully monitored. To this end, we have implemented the alerts below: 
 
 SSH login attempts (Filebeat System)
 
 ![TODO: Update the path with the name of your diagram](https://github.com/joshgarlandreese/WordPressRedTeam/blob/master/SSH%20Login%20Attempts.png)
 
-Metric: TODO
-Threshold: TODO
-Vulnerability Mitigated: TODO
-Reliability: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
-
 SSH login list (Filebeat System)
 
 ![TODO: Update the path with the name of your diagram](https://github.com/joshgarlandreese/WordPressRedTeam/blob/master/SSH%20Login%20List.png)
 
-Name of Alert 2
-
-[Name of Alert 2] is implemented as follows:
-
-Metric: TODO
-Threshold: TODO
-Vulnerability Mitigated: TODO
-Reliability: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+SSH Login Attempts
 
 ![TODO: Update the path with the name of your diagram](https://github.com/joshgarlandreese/WordPressRedTeam/blob/master/SSH%20Successful%20Login%20Attempts.png)
 
-
-
-Name of Alert 3
-
-[Name of Alert 3] is implemented as follows:
-
-Metric: TODO
-Threshold: TODO
-Vulnerability Mitigated: TODO
-Reliability: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
-
+SSH Failed Login Attempts
 ![TODO: Update the path with the name of your diagram](https://github.com/joshgarlandreese/WordPressRedTeam/blob/master/SSH%20Users%20of%20Failed%20Login%20Attempts.png)
 
-Name of Alert 4
-
-[Name of Alert 3] is implemented as follows:
-
-Metric: TODO
-Threshold: TODO
-Vulnerability Mitigated: TODO
-Reliability: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+Sudo Commands
 
 ![TODO: Update the path with the name of your diagram](https://github.com/joshgarlandreese/WordPressRedTeam/blob/master/Sudo%20Commands.png)
 
-Name of Alert 5
-
-[Name of Alert 3] is implemented as follows:
-
-Metric: TODO
-Threshold: TODO
-Vulnerability Mitigated: TODO
-Reliability: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+Sudo Errors
 
 ![TODO: Update the path with the name of your diagram](https://github.com/joshgarlandreese/WordPressRedTeam/blob/master/Sudo%20Errors.png)
 
-Note: If time allows, add more alerts. 
-
-Name of Alert 6
-
-[Name of Alert 3] is implemented as follows:
-
-Metric: TODO
-Threshold: TODO
-Vulnerability Mitigated: TODO
-Reliability: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+Sudo Command Errors
 
 ![TODO: Update the path with the name of your diagram](https://github.com/joshgarlandreese/WordPressRedTeam/blob/master/Sudo%20commands%20by%20Error.png)
-
-Note: If time allows, add more alerts. 
-Suggestions for Going Further
-
-Suggest a patch for each vulnerability identified by the alerts above. Remember: alerts only detect malicious behavior. They do not prevent it. It is not necessary to explain how to implement each patch.
 
 The logs and alerts generated during the assessment suggest that this network is susceptible to several active threats. In addition to watching for occurrences of such threats, the network should be hardened against them. The Blue Team suggests that IT implement the fixes below to protect the network:
 
