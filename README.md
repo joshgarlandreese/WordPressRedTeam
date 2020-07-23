@@ -204,11 +204,11 @@ Vulnerability 1: ssh login
 - Why It Works: This will disable non root users from being able to ssh in.
 
 Vulnerability 2: Proprietary information including hashed passwords is viewable in plaintext on html pages within the wordpress site.
-Patch: Notify developers of the error and have it corrected.
+- Patch: Notify developers of the error and have it corrected.
 
 Vulnerability 3: Users can access files they shouldn't be able to.  User Steven has ability to run python scripting through his login.  
-Patch: chmod 700 to these files.
-Why It Works: This will restrict access to root only read/write access.
+- Patch: chmod 700 to these files.
+- Why It Works: This will restrict access to root only read/write access.
 
 Overall this was a great CTF challenge.  As a noob, I enjoyed hunting through and trying various exploits and searching options to hunt down the flags and review the incident response side as well. I will continue various challenges to continue to improve my skills.
 
