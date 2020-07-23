@@ -164,7 +164,7 @@ Monitoring the Targets
 
 SSH login attempts (Filebeat System)
 
-![TODO: Update the path with the name of your diagram](html)
+![TODO: Update the path with the name of your diagram](https://github.com/joshgarlandreese/WordPressRedTeam/blob/master/SSH%20Login%20Attempts.png)
 
 Metric: TODO
 Threshold: TODO
