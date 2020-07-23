@@ -219,7 +219,9 @@ Threshold: TODO
 Vulnerability Mitigated: TODO
 Reliability: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
 
-![TODO: Update the path with the name of your diagram](html)Note: If time allows, add more alerts. 
+![TODO: Update the path with the name of your diagram](https://github.com/joshgarlandreese/WordPressRedTeam/blob/master/Sudo%20Errors.png)
+
+Note: If time allows, add more alerts. 
 
 Name of Alert 6
 
