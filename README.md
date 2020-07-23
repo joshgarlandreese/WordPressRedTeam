@@ -184,7 +184,7 @@ Threshold: TODO
 Vulnerability Mitigated: TODO
 Reliability: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
 
-![TODO: Update the path with the name of your diagram](html)
+![TODO: Update the path with the name of your diagram](https://github.com/joshgarlandreese/WordPressRedTeam/blob/master/SSH%20Successful%20Login%20Attempts.png)
 
 
 
