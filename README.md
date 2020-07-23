@@ -198,12 +198,12 @@ In addition to the Filebeat logs, alerts were also setup to e-mail a distributio
 
 The logs and alerts generated during the assessment suggest that this network is susceptible to several active threats. In addition to watching for occurrences of such threats, the network should be hardened against them. The Blue Team suggests that IT implement the fixes below to protect the network:
 
-Vulnerability 1
-Patch: [For example: install special-security-package with apt-get]
-Why It Works:  [For example: special-security-package scans the system for viruses every day]
+Vulnerability 1: ssh login
+- Patch: Disable ssh.  This can be done by logging in as the root user on the server(s) and accessing the /etc/ssh/sshd_config file.  Add the following: AllowGroups wheel root.    
+- Why It Works: This will disable non root users from being able to ssh in.
 
 Vulnerability 2
-Patch:
+Patch: 
 Why It Works:
 
 Vulnerability 3
