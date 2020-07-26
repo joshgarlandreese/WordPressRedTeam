@@ -125,10 +125,9 @@ Target 2 was much more challenging.  I was able to uncover the usernames as mich
 - flag2.txt: UNABLE TO LOCATE
    
 - flag3.txt:  a0f568aa9de277887f377887f37730d71520d9b
- - Exploit Used
-   dirbuster - exposed directory path (flag was discovered at 192.168.1.115/wordpress/wp-content/uploads/2018/11/)
-    dirbuster -l /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -e -u http://192.168.1.115
-   
+ - dirbuster - exposed directory path (flag was discovered at 192.168.1.115/wordpress/wp-content/uploads/2018/11/)
+ - Command Used: dirbuster -l /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -e -u http://192.168.1.115   
+     
 ![TODO:](https://github.com/joshgarlandreese/WordPressRedTeam_BlueTeam/blob/master/VM2%20Flag%203%20Location.png)   
 
 ![TODO:](https://github.com/joshgarlandreese/WordPressRedTeam_BlueTeam/blob/master/VM2%20Flag%203.png)
